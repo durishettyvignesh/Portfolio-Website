@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh Durishetty - Karate</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fluid-glass-navbar">
+        <div class="fluid-glass-bg"></div>
+        <div class="nav-container">
+            <div class="nav-logo">VD</div>
+
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="journey.html" class="nav-link">Journey</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="karate.html" class="nav-link active">Karate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Karate Section -->
+    <section class="karate">
+        <div class="container">
+
+            <h1 class="section-title">Karate Journey</h1>
+
+            <div class="karate-content">
+
+                <!-- Story -->
+                <div class="karate-text glass-surface">
+                    <div class="glass-surface__filter"></div>
+                    <div class="glass-surface__content">
+
+                        <p>
+                            In 2015, at the age of nine, I stepped onto the dojo floor for the first time.
+                            What began as curiosity slowly turned into commitment.
+                            Training days stacked into months, months into years.
+                            Progress was measured not in speed, but in consistency.
+                        </p>
+
+                        <p>
+                            Practicing Shotokan Karate demanded patience, repetition, and accountability.
+                            In 2022, I stood for my black belt examination.
+                            In April 2023, I earned the rank of 1st Dan Black Belt,
+                            becoming one of the youngest practitioners in my dojo to do so.
+                            The belt marked a milestone, not a finish line.
+                        </p>
+
+                        <p>
+                            Competition tested that discipline under pressure.
+                            I represented my training at the Open National level,
+                            competing officially three times and securing a Silver Medal
+                            at the Funakoshi Open National Cup Competition.
+                        </p>
+
+                        <p>
+                            While I am not in daily training today, karate remains present.
+                            I return to the dojo when I can.
+                            The mindset stays sharper than the punches ever were.
+                            The journey continues, quieter now, but far from complete.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="karate-stats">
+
+                    <div class="stat glass-surface">
+                        <div class="glass-surface__filter"></div>
+                        <div class="glass-surface__content">
+                            <h3>2015</h3>
+                            <p>Journey Began</p>
+                        </div>
+                    </div>
+
+                    <div class="stat glass-surface">
+                        <div class="glass-surface__filter"></div>
+                        <div class="glass-surface__content">
+                            <h3>1st Dan</h3>
+                            <p>Black Belt · 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="stat glass-surface">
+                        <div class="glass-surface__filter"></div>
+                        <div class="glass-surface__content">
+                            <h3>Silver</h3>
+                            <p>Open National Level</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Karate Gallery Section -->
+    <section class="karate-gallery-section">
+        <div class="container">
+            <h2 class="section-title">Karate Gallery</h2>
+            <div class="gallery-carousel">
+                <div class="gallery-inner">
+                    <div class="gallery-item active">
+                        <img src="assets/karate gallery/2kr.jpeg" alt="Karate Training 1">
+                        <div class="gallery-caption">
+                            <h4>Training Session</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/karate gallery/3kr.jpeg" alt="Karate Training 2">
+                        <div class="gallery-caption">
+                            <h4>Practice Focus</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/karate gallery/4kr.jpeg" alt="Karate Training 3">
+                        <div class="gallery-caption">
+                            <h4>Technique Work</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/karate gallery/4.5kr.jpeg" alt="Karate Training 4">
+                        <div class="gallery-caption">
+                            <h4>Advanced Practice</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/karate gallery/5kr.jpeg" alt="Karate Training 5">
+                        <div class="gallery-caption">
+                            <h4>Competition Prep</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/karate gallery/6kr.jpeg" alt="Karate Training 6">
+                        <div class="gallery-caption">
+                            <h4>Mastery Journey</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="gallery-control prev" onclick="prevGallerySlide()">&#10094;</button>
+                <button class="gallery-control next" onclick="nextGallerySlide()">&#10095;</button>
+                <div class="gallery-indicators">
+                    <span class="gallery-indicator active" onclick="currentGallerySlide(0)"></span>
+                    <span class="gallery-indicator" onclick="currentGallerySlide(1)"></span>
+                    <span class="gallery-indicator" onclick="currentGallerySlide(2)"></span>
+                    <span class="gallery-indicator" onclick="currentGallerySlide(3)"></span>
+                    <span class="gallery-indicator" onclick="currentGallerySlide(4)"></span>
+                    <span class="gallery-indicator" onclick="currentGallerySlide(5)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Vignesh Durishetty. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
